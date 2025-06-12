@@ -29,8 +29,8 @@ if __name__ == "__main__":
     ]
 
     total = 0
-    for emp in empleados:
-        salario = emp.calcular_salario()
+    for e in empleados:
+        salario = e.calcular_salario()
         print(f"Salario: ${salario}")
         total += salario
 
