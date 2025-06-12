@@ -21,12 +21,7 @@ class empleadoFijo(empleado):
 
 
 if __name__ == "__main__":
-    empleados = [
-        empleadoporHora(35, 1430),
-        empleadoFijo(20000),
-        empleadoporHora(15, 1200),
-        empleadoFijo(84500)
-    ]
+    empleados = [empleadoporHora(35, 1430), empleadoFijo(20000), empleadoporHora(15, 1200), empleadoFijo(84500)]
 
     total = 0
     for e in empleados:
